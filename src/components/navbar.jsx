@@ -10,18 +10,25 @@ class NavBar extends Component {
   }
 
   render() {
+    console.log(this.props.currentPage);
     return (
       <div className="flex bottom-0 justify-center text-white mt-3">
-        <Link to="/">
-          <button className={this.getClasses("/")}>Home</button>
+        <Link to="/portfolio-website">
+          <button className={this.getClasses("/portfolio-website")}>
+            Home
+          </button>
         </Link>
         <div className="mx-2" />
-        <Link to="/projects">
-          <button className={this.getClasses("/projects")}>Projects</button>
+        <Link to="/portfolio-website/projects">
+          <button className={this.getClasses("/portfolio-website/projects")}>
+            Projects
+          </button>
         </Link>
         <div className="mx-2" />
-        <Link to="/about">
-          <button className={this.getClasses("/about")}>About</button>
+        <Link to="/portfolio-website/about">
+          <button className={this.getClasses("/portfolio-website/about")}>
+            About
+          </button>
         </Link>
       </div>
     );
