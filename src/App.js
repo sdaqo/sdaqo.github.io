@@ -1,4 +1,3 @@
-import "./App.css";
 import NavBar from "./components/navbar";
 import ErrorPage from "./pages/404";
 import HomePage from "./pages/home";
