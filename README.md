@@ -1,5 +1,5 @@
 # Personal Portfolio (WIP)
-A little Website I built for myself and to learn web dev.
+A little Website I built, to learn web dev.
 
 ## Techologies used
 
