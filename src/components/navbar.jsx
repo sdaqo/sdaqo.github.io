@@ -3,14 +3,16 @@ import { Link } from "react-router-dom";
 
 class NavBar extends Component {
   getClasses(path) {
+    const { currentPage } = this.props;
+    var currPage = currentPage;
+    if (currPage[currPage.length - 1] === "/") currPage = currPage.slice(0, -1);
     var classes = "buttonShadow";
-    if (path === this.props.currentPage)
+    if (path === currPage)
       return classes + " bg-cyan-500 shadow-lg shadow-cyan-500/50";
     return classes;
   }
 
   render() {
-    console.log(this.props.currentPage);
     return (
       <div className="flex bottom-0 justify-center text-white mt-3">
         <Link to="/portfolio-website">
