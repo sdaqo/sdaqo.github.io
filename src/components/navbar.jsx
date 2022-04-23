@@ -15,20 +15,20 @@ class NavBar extends Component {
   render() {
     return (
       <div className="flex bottom-0 justify-center text-white mt-3">
-        <Link to="/portfolio-website">
-          <button className={this.getClasses("/portfolio-website")}>
+        <Link to="/">
+          <button className={this.getClasses("/")}>
             Home
           </button>
         </Link>
         <div className="mx-2" />
-        <Link to="/portfolio-website/projects">
-          <button className={this.getClasses("/portfolio-website/projects")}>
+        <Link to="/projects">
+          <button className={this.getClasses("/projects")}>
             Projects
           </button>
         </Link>
         <div className="mx-2" />
-        <Link to="/portfolio-website/about">
-          <button className={this.getClasses("/portfolio-website/about")}>
+        <Link to="/about">
+          <button className={this.getClasses("/about")}>
             About
           </button>
         </Link>
