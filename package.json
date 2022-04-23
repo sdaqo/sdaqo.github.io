@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://sdaqo.github.io/portfolio-website",
+  "homepage": "http://github.sdaqo.tech",
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.17.9",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
