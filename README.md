@@ -1,5 +1,5 @@
 # Personal Portfolio (WIP)
-A little Website I built to learn web dev. You can look at it [here](https://sdaqo.github.io/portfolio-website/)
+A little Website I built to learn web dev. You can look at it [here](https://github.sdaqo.tech/)
 
 ## Technologies used
 
