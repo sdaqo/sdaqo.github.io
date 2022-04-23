@@ -18,9 +18,9 @@ function App() {
       <NavBar currentPage={location.pathname} />{" "}
       <Routes>
         <Route path="*" element={<ErrorPage />} />
-        <Route path="/portfolio-website" element={<HomePage />} />
-        <Route path="/portfolio-website/projects" element={<Projects />} />
-        <Route path="/portfolio-website/about" element={<About />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
       </Routes>{" "}
       <div></div>
     </div>
