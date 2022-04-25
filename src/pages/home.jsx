@@ -37,14 +37,14 @@ class HomePage extends Component {
 
   handleSocialRender() {
     const socialComponent = (
-      <div className="text-[50px] flex justify-center fadein">
-        <a href="https://github.com/sdaqo">
-          <FontAwesomeIcon icon={faGithubAlt} />
-        </a>
+      <div className="text-[50px] flex flex-row justify-center items-center fadein">
+          <a href="https://github.com/sdaqo">
+            <FontAwesomeIcon icon={faGithubAlt} />
+          </a>
         <div className="mx-2" />
-        <a href="mailto:sdaqo.dev@protonmail.com">
-          <FontAwesomeIcon icon={faEnvelope} />
-        </a>
+          <a href="mailto:sdaqo.dev@protonmail.com">
+            <FontAwesomeIcon icon={faEnvelope} />
+          </a>
       </div>
     );
     this.setState({ socialComponent });
