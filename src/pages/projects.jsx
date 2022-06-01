@@ -1,9 +1,10 @@
 import React, { Component } from "react";
+import ProjectCard from "../components/projectCard";
 
 class Projects extends Component {
   state = {};
   render() {
-    return <h1>WIP</h1>;
+    return <ProjectCard />;
   }
 }
 
